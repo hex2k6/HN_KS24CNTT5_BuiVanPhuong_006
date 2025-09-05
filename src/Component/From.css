@@ -1,0 +1,45 @@
+header{     
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: center;
+    padding: 30px;
+}
+header div{
+    font-size: 16px;
+    margin: 13px;
+    background: rgba(255, 255, 255, 0.164);
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+}
+header div span{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+}
+header div p{
+    display: flex;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    justify-content: center;
+    text-align: center;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    border-radius: 10px;
+}
+.container div{
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.164);
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
