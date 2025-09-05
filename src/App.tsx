@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Header from "./components/Header";
-import BillForm from "./components/BillForm";
-import BillList from "./components/BillList";
-import ModalConfirm from "./components/ModalConfirm";
+import Header from "./Component/Header";
+import BillForm from "./Component/BillForm";
+import BillList from "./Component/BillList";
+import ModalConfirm from "./Component/ModalConfirm";
 
 export interface Bill {
   id: number;
